@@ -1,5 +1,5 @@
 async function foodGraph() { // Fetch and parse the CSV data
-    const url = "CSV/FOODvsCPI.csv";
+    const url = "P2DataMapping/CSV/FOODvsCPI.csv";
     const csvData = await fetchCSVData(url);
     console.log(csvData);
     // Extract labels and data from the parsed CSV data

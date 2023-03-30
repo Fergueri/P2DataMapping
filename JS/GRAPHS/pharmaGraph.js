@@ -1,5 +1,5 @@
 async function pharmaGraph() { // Fetch and parse the CSV data
-    const url = "CSV/PHARMAvsCPI.csv";
+    const url = "P2DataMapping/CSV/PHARMAvsCPI.csv";
     const csvData = await fetchCSVData(url);
     console.log(csvData);
     // Extract labels and data from the parsed CSV data
