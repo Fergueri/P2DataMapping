@@ -1,5 +1,5 @@
 async function insuranceGraph() { // Fetch and parse the CSV data
-    const url = "CSV/INSURANCEvsCPI.csv";
+    const url = "/CSV/INSURANCEvsCPI.csv";
     const csvData = await fetchCSVData(url);
     console.log(csvData);
     // Extract labels and data from the parsed CSV data
