@@ -1,6 +1,6 @@
 // Define an asynchronous function called areaGraph to fetch and display a line chart
 async function areaGraph() { // Fetch and parse the CSV data
-    const url = "_CSV/Total_EX.csv";
+    const url = "CSV/Total_EX.csv";
     const csvData = await fetchCSVData(url);
 
     // Extract labels and data from the parsed CSV data
