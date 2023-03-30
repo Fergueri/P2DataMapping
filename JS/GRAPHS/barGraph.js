@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", async function () {
   // Fetch and parse the CSV data
   const url = "CSV/CPI.csv";
+  
   const csvData = await fetchCSVData(url);
   const colors = [
     "rgba(112, 166, 133, 1)",
