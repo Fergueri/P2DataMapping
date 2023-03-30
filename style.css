@@ -66,56 +66,56 @@ body {
   font-family: "BebasNeue";
 }
 #UNIbutton {
-  background-image: url(./_IMAGE/university.svg);
+  background-image: url(_IMAGE/university.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode:soft-light;
   background-size: contain;
 }
 #PHARMAbutton {
-  background-image: url(./_IMAGE/pharma.svg);
+  background-image: url(_IMAGE/pharma.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode:soft-light;
   background-size: contain;
 }
 #TELECOMbutton {
-  background-image: url(./_IMAGE/telecom.svg);
+  background-image: url(_IMAGE/telecom.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode:soft-light;
   background-size: contain;
 }
 #CLOTHINGbutton {
-  background-image: url(./_IMAGE/clothing.svg);
+  background-image: url(_IMAGE/clothing.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode:soft-light;
   background-size: contain;
 }
 #HOUSINGbutton {
-  background-image: url(./_IMAGE/housing.svg);
+  background-image: url(_IMAGE/housing.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode:soft-light;
   background-size: contain;
 }
 #FOODbutton {
-  background-image: url(./_IMAGE/food.svg);
+  background-image: url(_IMAGE/food.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode:soft-light;
   background-size:contain;
 }
 #INSURANCEbutton {
-  background-image: url(./_IMAGE/insurance.svg);
+  background-image: url(_IMAGE/insurance.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode:soft-light;
   background-size: contain;
 }
 #AREAbutton{
-  background-image: url(./_IMAGE/back.svg);
+  background-image: url(_IMAGE/back.svg);
   background-repeat: no-repeat;
   background-position: left;
   background-blend-mode:soft-light;
