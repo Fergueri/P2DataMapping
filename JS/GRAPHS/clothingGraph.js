@@ -1,5 +1,5 @@
 async function clothingGraph() { // Fetch and parse the CSV data
-    const url = "/CSV/CLOTHvsCPI.csv"; // Replace with the URL of your CSV file
+    const url = "CSV/CLOTHvsCPI.csv"; // Replace with the URL of your CSV file
     const csvData = await fetchCSVData(url);
     console.log(csvData);
     // Extract labels and data from the parsed CSV data

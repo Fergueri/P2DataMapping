@@ -1,5 +1,5 @@
 async function housingGraph() { // Fetch and parse the CSV data
-    const url = "/CSV/HOUSINGvsCPI.csv";
+    const url = "CSV/HOUSINGvsCPI.csv";
     const csvData = await fetchCSVData(url);
     console.log(csvData);
     // Extract labels and data from the parsed CSV data
