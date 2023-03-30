@@ -1,0 +1,73 @@
+<!-- 
+  Project 2: Mapping Data
+  Living Expenses in Toronto when Compared to the Average C.P.I
+  Eric Ferguson
+  VDES39915
+  WINTER 2023
+  Harold Sikkema
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="_IMAGE/housing.svg">
+    <title>Living Expenses When Compared to C.P.I.</title>
+    <!-- Import Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Import Papa Parse library for CSV parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Container for charts -->
+    <div id="chartsContainer">
+      <!-- Container for area graph -->
+      <div id="chartContainer">
+        <canvas class="currentGraph" id="myAreaGraph"></canvas>
+      </div>
+      <!-- Container for bar graph -->
+      <div id="chartContainer2">
+        <canvas id="myBarGraph"></canvas>
+      </div>
+    </div>
+    <!-- Container for buttons -->
+    <div id="buttonsContainer">
+      <!-- Buttons to change the graph data -->
+      <button id="UNIbutton" class="categoryButton" onclick="uniClick();">
+        Comparing University Costs Using C.P.I.
+      </button>
+      <button id="PHARMAbutton" class="categoryButton" onclick="pharmaClick();">
+        Comparing Pharmaceutical Costs Using C.P.I.
+      </button>
+      <button id="TELECOMbutton" class="categoryButton" onclick="telecomClick();">
+        Comparing Telecommunication Costs Using C.P.I.
+      </button>
+      <button id="CLOTHINGbutton" class="categoryButton" onclick="clothingClick();">
+        Comparing Clothing and Footwear Costs Using C.P.I.
+      </button>
+      <button id="HOUSINGbutton" class="categoryButton" onclick="housingClick();">
+        Comparing Rental Costs Using C.P.I.
+      </button>
+      <button id="FOODbutton" class="categoryButton" onclick="foodClick();">
+        Comparing Food Costs Using C.P.I.
+      </button>
+      <button id="INSURANCEbutton" class="categoryButton" onclick="insuranceClick();">
+        Comparing Insurance Costs Using C.P.I.
+      </button>
+    </div>
+    <!-- Import JavaScript files for various graphs and functionalities -->
+    <script src="_JS/_GRAPHS/areaGraph.js"></script>
+    <script src="_JS/_GRAPHS/universityGraph.js"></script>
+    <script src="_JS/_GRAPHS/clothingGraph.js"></script>
+    <script src="_JS/_GRAPHS/foodGraph.js"></script>
+    <script src="_JS/_GRAPHS/housingGraph.js"></script>
+    <script src="_JS/_GRAPHS/insuranceGraph.js"></script>
+    <script src="_JS/_GRAPHS/pharmaGraph.js"></script>
+    <script src="_JS/_GRAPHS/telecomGraph.js"></script>
+    <script src="_JS/_GRAPHS/barGraph.js"></script>
+    <script src="_JS/buttons.js"></script>
+    <script src="_JS/main.js"></script>
+  </body>
+</html>

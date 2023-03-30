@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("_FONT/BebasNeue-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(46, 52, 64, 1);
+    font-family: "BebasNeue";
+    overflow: hidden;
+  }
+  
+  #chartsContainer {
+    display: flex;
+    margin: 10px;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  #chartContainer,
+  #chartContainer2 {
+    min-width: 0; /* This is necessary for the containers to shrink when resizing the window */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  #chartContainer {
+    flex: 8; /* Adjust the flex property to occupy 60% of the page width */
+    background-color: rgba(67, 76, 94, 1);
+  }
+  
+  #chartContainer2 {
+    flex: 2; /* Adjust the flex property to occupy 30% of the page width */
+    background-color: rgba(67, 76, 94, 1);
+  }
+
+/* Button styling */
+#buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 0px;
+  gap:10px;
+  background-color: rgba(67, 76, 94, 1);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color:rgb(248, 241, 208);
+}
+
+.categoryButton {
+  padding: 20px 10px;
+  flex:1;
+  background-color: rgba(112, 166, 133, 1);
+  border: none;
+  border-radius: 5px;
+  color: rgb(248, 241, 208);
+  font-size: 1.1vw;
+  font-weight: 100;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "BebasNeue";
+}
+#UNIbutton {
+  background-image: url(_IMAGE/university.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:soft-light;
+  background-size: contain;
+}
+#PHARMAbutton {
+  background-image: url(_IMAGE/pharma.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:soft-light;
+  background-size: contain;
+}
+#TELECOMbutton {
+  background-image: url(_IMAGE/telecom.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:soft-light;
+  background-size: contain;
+}
+#CLOTHINGbutton {
+  background-image: url(_IMAGE/clothing.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:soft-light;
+  background-size: contain;
+}
+#HOUSINGbutton {
+  background-image: url(_IMAGE/housing.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:soft-light;
+  background-size: contain;
+}
+#FOODbutton {
+  background-image: url(_IMAGE/food.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:soft-light;
+  background-size:contain;
+}
+#INSURANCEbutton {
+  background-image: url(_IMAGE/insurance.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode:soft-light;
+  background-size: contain;
+}
+#AREAbutton{
+  background-image: url(_IMAGE/back.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-blend-mode:soft-light;
+  background-size: contain;
+  padding: 30px 10px;
+}
+
+.categoryButton:hover {
+  background-color: rgba(248, 227, 162, 1);
+  color: rgba(67, 76, 94, 1);
+}
